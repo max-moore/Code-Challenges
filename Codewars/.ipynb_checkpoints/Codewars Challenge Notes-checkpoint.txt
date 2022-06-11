@@ -1,0 +1,14 @@
+Codewars Code Challenge Notes:
+
+Lambda vs Def - No significant performance differential, use based on readability and maintainability instead
+
+Source: https://stackoverflow.com/a/53568946
+
+Generator vs List Comprehension - Use list comprehension if you're iterating more than once, or if you need to use list methods
+
+Source: https://stackoverflow.com/a/47826
+
+List Comprehension vs Map vs Filter - ???
+
+List Comprehension vs For Loop vs Array Computation - ???
+
