@@ -8,7 +8,13 @@ Generator vs List Comprehension - Use list comprehension if you're iterating mor
 
 Source: https://stackoverflow.com/a/47826
 
-List Comprehension vs Map vs Filter - ???
+List Comprehension vs Map vs Filter - List comprehensions seem generally more readable to less experienced programmers
+
+Source: https://stackoverflow.com/questions/1247486/list-comprehension-vs-map
 
 List Comprehension vs For Loop vs Array Computation - ???
+
+Dictionary vs If Else Statements - Prioritize readability, dictionary might perform faster
+
+Source: https://stackoverflow.com/questions/15923766/python-dictionary-vs-if-statement-speed
 
