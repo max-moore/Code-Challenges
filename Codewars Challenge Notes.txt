@@ -1,20 +1,24 @@
 Codewars Code Challenge Notes:
 
-Lambda vs Def - No significant performance differential, use based on readability and maintainability instead
+-Lambda vs Def - No significant performance differential, use based on readability and maintainability instead
 
 Source: https://stackoverflow.com/a/53568946
 
-Generator vs List Comprehension - Use list comprehension if you're iterating more than once, or if you need to use list methods
+-Generator vs List Comprehension - Use list comprehension if you're iterating more than once, or if you need to use list methods
 
 Source: https://stackoverflow.com/a/47826
 
-List Comprehension vs Map vs Filter - List comprehensions seem generally more readable to less experienced programmers
+-List Comprehension vs Map vs Filter - List comprehensions seem generally more readable to less experienced programmers
 
 Source: https://stackoverflow.com/questions/1247486/list-comprehension-vs-map
 
-List Comprehension vs For Loop vs Array Computation - ???
+-List Comprehension vs For Loop vs Array Computation - ???
 
-Dictionary vs If Else Statements - Prioritize readability, dictionary might perform faster
+-Dictionary vs If Else Statements - Prioritize readability, dictionary might perform faster
 
 Source: https://stackoverflow.com/questions/15923766/python-dictionary-vs-if-statement-speed
+
+-String formatting: % vs. format vs. f-string literal - C-style formatting with % is as fast as f-string expressions, f-string expressions should generally be ideal but the other options might suit your code better
+
+Source: https://stackoverflow.com/questions/5082452/string-formatting-vs-format-vs-f-string-literal
 
