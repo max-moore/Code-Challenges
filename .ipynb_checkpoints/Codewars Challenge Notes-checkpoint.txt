@@ -1,20 +1,55 @@
 Codewars Code Challenge Notes:
 
-Lambda vs Def - No significant performance differential, use based on readability and maintainability instead
-
+-Lambda vs Def - No significant performance differential, use based on readability and maintainability instead
+ -Some niche cases where there might be functional difference - Lambda functions don't use a namespace(?) look into this more
 Source: https://stackoverflow.com/a/53568946
 
-Generator vs List Comprehension - Use list comprehension if you're iterating more than once, or if you need to use list methods
+Other reading material:
+https://www.reddit.com/r/learnpython/comments/5wjavx/what_is_the_point_of_lambda_in_python/
+https://www.reddit.com/r/Python/comments/l6t0b4/5_uses_of_lambda_functions_in_python/
+https://www.reddit.com/r/learnpython/comments/sat0l5/i_still_dont_understand_the_benefit_of_lambda/
+https://www.reddit.com/r/Python/comments/swmuj/let_me_know_the_use_cases_for_lambda_in_python/
+https://www.reddit.com/r/learnpython/comments/3lyv56/when_do_you_use_a_lambda_function/
+https://www.reddit.com/r/Python/comments/a8swkw/understanding_python_lambda_functions_and_why/
+https://www.reddit.com/r/learnpython/comments/3dcjqa/what_the_hell_is_a_lambda/
+https://www.reddit.com/r/learnpython/comments/t3q7z6/how_often_do_you_use_lambda_functions/
+https://www.reddit.com/r/learnprogramming/comments/u1tml1/is_lambda_necessary_and_do_people_use_it_in_real/
+https://www.reddit.com/r/learnpython/comments/ool7m8/what_in_the_hell_is_lambda/
+https://www.reddit.com/r/learnpython/comments/7gyh5z/what_is_the_point_of_lambda/
+https://www.reddit.com/r/learnpython/comments/34d9jq/eli5_lambdas/
+https://www.reddit.com/r/Python/comments/bg4bnv/why_do_we_need_lambda_function_in_python/
+https://www.reddit.com/r/learnpython/comments/9ovztz/wtf_is_lambda/
+https://www.reddit.com/r/aws/comments/rnn39b/struggling_to_understand_why_i_would_use_lambda/
+https://www.reddit.com/r/aws/comments/ut0oiz/whats_the_proper_way_to_develop_lambda_functions/
+https://www.reddit.com/r/aws/comments/sgqhgc/one_lambda_function_that_does_many_things_or_one/
+https://www.reddit.com/r/aws/comments/n6f0ln/python_class_required_for_multiple_lambda/
+https://stackoverflow.com/questions/890128/how-are-lambdas-useful
+https://stackoverflow.com/questions/5233508/what-exactly-is-lambda-in-python
+https://stackoverflow.com/questions/3259322/why-use-lambda-functions
+https://stackoverflow.com/questions/69599157/what-is-the-advantage-of-using-the-lambda-function-in-python
+https://stackoverflow.com/questions/66874451/python-lambda-functions-use-cases
+https://stackoverflow.com/questions/55300986/how-are-lambda-functions-useful
+https://stackoverflow.com/questions/53568926/do-python-lambda-functions-help-in-reducing-the-execution-times
+https://stackoverflow.com/questions/134626/which-is-more-preferable-to-use-lambda-functions-or-nested-functions-def
+https://stackoverflow.com/questions/25327629/when-is-a-lambda-function-better-than-defining
+https://stackoverflow.com/questions/71072066/are-one-line-lambda-functions-bad-practice-per-pep8
+https://stackoverflow.com/questions/58583736/using-a-lambda-function-in-python
+
+-Generator vs List Comprehension - Use list comprehension if you're iterating more than once, or if you need to use list methods
 
 Source: https://stackoverflow.com/a/47826
 
-List Comprehension vs Map vs Filter - List comprehensions seem generally more readable to less experienced programmers
+-List Comprehension vs Map vs Filter - List comprehensions seem generally more readable to less experienced programmers
 
 Source: https://stackoverflow.com/questions/1247486/list-comprehension-vs-map
 
-List Comprehension vs For Loop vs Array Computation - ???
+-List Comprehension vs For Loop vs Array Computation - ???
 
-Dictionary vs If Else Statements - Prioritize readability, dictionary might perform faster
+-Dictionary vs If Else Statements - Prioritize readability, dictionary might perform faster
 
 Source: https://stackoverflow.com/questions/15923766/python-dictionary-vs-if-statement-speed
+
+-String formatting: % vs. format vs. f-string literal - C-style formatting with % is as fast as f-string expressions, f-string expressions should generally be ideal but the other options might suit your code better
+
+Source: https://stackoverflow.com/questions/5082452/string-formatting-vs-format-vs-f-string-literal
 
